@@ -1,0 +1,16 @@
+body{
+    background-color: mediumpurple;
+}
+
+.topBoks{
+    border: 2px solid black;
+    height: 150px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: rebeccapurple;
+}
+
+.welcome{
+    margin-top: 3%;
+}
