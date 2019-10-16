@@ -1,16 +1,56 @@
+/* Alle sider */
+
 body{
-    background-color: mediumpurple;
+    font-family: 'open sans';
 }
 
 .topBoks{
     border: 2px solid black;
     height: 150px;
-    width: 80%;
     text-align: center;
     margin: auto;
-    background-color: rebeccapurple;
+    background-color: rgba(97, 0, 145, 0.5);
+    font-style: italic;
+    font-size: 130%;
 }
 
 .welcome{
+    margin-top: 2%;
+}
+
+ul{
+    list-style-type: none;
+    padding-right: 25px;
+    overflow: hidden;
+    border: 2px solid black
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    margin-left: 80px;
+    font-size: 125%;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: rgba(97, 0, 145, 0.5);
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* Forside */
+
+.velkomst {
+    text-align: center;
+    font-size: 125%;
     margin-top: 3%;
+    animation: 
 }
