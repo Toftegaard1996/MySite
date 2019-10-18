@@ -2,6 +2,7 @@
 
 body{
     font-family: 'open sans';
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .topBoks{
@@ -41,6 +42,7 @@ li a {
 
 li a:hover {
     background-color: rgba(97, 0, 145, 0.5);
+    text-decoration: underline;
 }
 
 .active {
@@ -60,7 +62,7 @@ li a:hover {
     width: 200px;
     height: 200px;
     float: left;
-    margin-left: 25%;
+    margin-left: 20%;
     background: url('../Billeder/animation-04.png') 0 0 no-repeat;
     animation: penguin 5s steps(79) infinite;
 }
@@ -74,7 +76,7 @@ li a:hover {
     width: 150px;
     height: 150px;
     float: left;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 25px;
     background: url('../Billeder/scala-animation-04-01.png') 0 0 no-repeat;
     animation: scala 6s steps(82) infinite;
@@ -84,3 +86,76 @@ li a:hover {
     0% {background-position: 0px;}
     100% {background-position: -12300px;}
 }
+
+.logobillede {
+    width: 15%;
+    float: left;
+    margin-left: 10%;
+}
+
+hr{
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 25%;
+    display: block;
+    border-style: dashed;
+    border-width: 2px;
+    width: 80%;
+    opacity: 50%;
+}
+
+.projektBillede {
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 15%;
+}
+
+.kreationsBillede {
+    border: 2px solid black;
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    margin-left: 55%;
+    margin-top: 350px;
+}
+
+.omMigBillede {
+    border: 2px solid black;
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    margin-bottom: 10%;
+    margin-top: 700px;
+    margin-left: 15%;
+}
+
+
+/* Projekter */
+
+/* Kreationer */
+.cloudAnimation {
+    width: 1024px;
+    height: 784px;
+    
+    background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;
+    animation: lille-sky 2s steps(15) infinite;
+    position: absolute;
+}
+
+@keyframes lille-sky {
+    0% {background-position: 0px;}
+    100% {background-position: -15360px;}
+    
+/* Om mig */
+
+/* Kontakt */
+
+/* Breakpoints */
+
+@media only screen and (max-width:600px){}
+
+@media only screen and (min-width:601px) and (max-width:992px){}
+    
+@media only screen and (min-width:993px) and (max-width:1200px){}
+
+@media only screen and (min-width:1201px)and (max-width:1600px){}
