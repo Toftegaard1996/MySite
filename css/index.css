@@ -5,6 +5,7 @@ body{
 }
 
 .topBoks{
+    font-family: 'segoe script';
     border: 2px solid black;
     height: 150px;
     text-align: center;
@@ -15,7 +16,7 @@ body{
 }
 
 .welcome{
-    margin-top: 2%;
+    padding: 20px;
 }
 
 ul{
@@ -49,8 +50,37 @@ li a:hover {
 /* Forside */
 
 .velkomst {
+    font-family: 'segoe script';
     text-align: center;
-    font-size: 125%;
-    margin-top: 3%;
+    font-size: 300%;
     animation: 
+}
+
+.penguinAnimation{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 25%;
+    background: url('../Billeder/animation-04.png') 0 0 no-repeat;
+    animation: penguin 5s steps(79) infinite;
+}
+
+@keyframes penguin {
+    0% {background-position: 0px;}
+    100% {background-position: -15800px;}
+}
+
+.scalaAnimation{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 25%;
+    margin-top: 25px;
+    background: url('../Billeder/scala-animation-04-01.png') 0 0 no-repeat;
+    animation: scala 6s steps(82) infinite;
+}
+
+@keyframes scala {
+    0% {background-position: 0px;}
+    100% {background-position: -12300px;}
 }
