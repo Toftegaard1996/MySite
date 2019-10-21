@@ -14,6 +14,7 @@ body{
     background-color: rgba(97, 0, 145, 0.5);
     font-style: italic;
     font-size: 130%;
+    box-shadow: 5px 5px 10px black;
 }
 
 .welcome{
@@ -24,7 +25,8 @@ ul{
     list-style-type: none;
     padding-right: 25px;
     overflow: hidden;
-    border: 2px solid black
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
 }
 
 li {
@@ -47,6 +49,17 @@ li a:hover {
 
 .active {
     text-decoration: underline;
+}
+
+hr{
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: block;
+    border-style: dashed;
+    border-width: 2px;
+    width: 80%;
+    opacity: 50%;
 }
 
 /* Forside */
@@ -91,17 +104,8 @@ li a:hover {
     width: 15%;
     float: left;
     margin-left: 10%;
-}
-
-hr{
-    margin: auto;
-    margin-bottom: 5%;
-    margin-top: 25%;
-    display: block;
-    border-style: dashed;
-    border-width: 2px;
-    width: 80%;
-    opacity: 50%;
+    margin-bottom: 3%;
+    box-shadow: 5px 5px 15px black;
 }
 
 .projektKasse {
@@ -109,7 +113,6 @@ hr{
     display: block;
     cursor: pointer;
     font-family: 'segoe script';
-    border: 2px solid black;
     margin-left: 15%;
     width: 568px;
     height: 341px;
@@ -120,12 +123,17 @@ hr{
     font-size: 150%;
 }
 
+.projektKasse:active {
+    transform: translateY(4px);
+}
+
 .projektBillede {
     border: 2px solid black;
     position: absolute;
     height: 341px;
     width: 568px;
-    filter: blur(3px)
+    filter: blur(3px);
+    box-shadow: 5px 5px 15px black;
 }
 
 .projektTekst {
@@ -157,6 +165,7 @@ hr{
     height: 341px;
     width: 568px;
     filter: blur(3px);
+    box-shadow: 5px 5px 15px black;
 }
 
 .kreationsTekst {
@@ -173,6 +182,10 @@ hr{
 
 .kreationsKasse:hover {
     font-size: 150%;
+}
+
+.kreationsKasse:active {
+    transform: translateY(4px);
 }
 
 .migKasse {
@@ -192,6 +205,7 @@ hr{
     width: 568px;
     height: 341px;
     filter: blur(3px);
+    box-shadow: 5px 5px 15px black;
 }
 
 .migTekst {
@@ -210,7 +224,24 @@ hr{
     font-size: 150%;
 }
 
+.migKasse:active {
+    transform: translateY(4px);
+}
+
 /* Projekter */
+
+.projektTitel {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'segoe script';
+}
+
+.projektVelkomst {
+    text-align: center;
+    font-size: 125%;
+}
+
+
 
 /* Kreationer */
 .cloudAnimation {
