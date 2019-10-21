@@ -104,31 +104,111 @@ hr{
     opacity: 50%;
 }
 
+.projektKasse {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-family: 'segoe script';
+    border: 2px solid black;
+    margin-left: 15%;
+    width: 568px;
+    height: 341px;
+    margin-bottom: 50px;
+}
+
+.projektKasse:hover {
+    font-size: 150%;
+}
+
 .projektBillede {
     border: 2px solid black;
     position: absolute;
-    margin-left: 15%;
+    height: 341px;
+    width: 568px;
+    filter: blur(3px)
+}
+
+.projektTekst {
+    font-size: 350%;
+    width: 100%;
+    height: 50%;
+    color: black;
+    margin-top: 125px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+}
+
+.kreationsKasse {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-family: 'segoe script';
+    margin-left: 55%;
+    width: 568px;
+    height: 341px;
+    margin-bottom: 50px;
 }
 
 .kreationsBillede {
     border: 2px solid black;
     position: absolute;
-    width: 30%;
-    height: 35%;
-    margin-left: 55%;
-    margin-top: 350px;
+    height: 341px;
+    width: 568px;
+    filter: blur(3px);
+}
+
+.kreationsTekst {
+    font-size: 350%;
+    width: 100%;
+    height: 50%;
+    color: white;
+    margin-top: 125px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+}
+
+.kreationsKasse:hover {
+    font-size: 150%;
+}
+
+.migKasse {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-family: 'segoe script';
+    margin-left: 15%;
+    width: 568px;
+    height: 341px;
+    margin-bottom: 50px;
 }
 
 .omMigBillede {
     border: 2px solid black;
     position: absolute;
-    width: 30%;
-    height: 35%;
-    margin-bottom: 10%;
-    margin-top: 700px;
-    margin-left: 15%;
+    width: 568px;
+    height: 341px;
+    filter: blur(3px);
 }
 
+.migTekst {
+    font-size: 350%;
+    width: 100%;
+    height: 50%;
+    margin-top: 125px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+.migKasse:hover {
+    font-size: 150%;
+}
 
 /* Projekter */
 
