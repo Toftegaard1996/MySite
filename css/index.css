@@ -241,9 +241,71 @@ hr{
     font-size: 125%;
 }
 
+.projektScala {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'segoe script';
+}
 
+.scalaLogo {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.scalaText {
+    width: 50%;
+    margin-left: 15%;
+    float: left;
+}
+
+.link {
+    color: black;
+}
+
+.scalaInsta1 {
+    width: 23%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.scalaInsta2 {
+    width: 23%;
+}
+
+.projektAbtion {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'segoe script';
+}
+
+.projektFlugt {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'segoe script';
+}
 
 /* Kreationer */
+
+.creationsTitel {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'segoe script';
+}
+
+.creationsVelkomst {
+    text-align: center;
+    font-size: 125%;
+}
+
+.creationsAnimation {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'segoe script';
+}
+
 .cloudAnimation {
     width: 1024px;
     height: 784px;
@@ -256,10 +318,63 @@ hr{
 @keyframes lille-sky {
     0% {background-position: 0px;}
     100% {background-position: -15360px;}
+}
+
+.creationsWP {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'segoe script';
+}
+
+.creationsHobby {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'segoe script';
+}
     
 /* Om mig */
+    
+.aboutTitel {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'segoe script';
+}
+
+.meLogo {
+    margin-left: 15%;
+    width: 20%;
+    box-shadow: 5px 5px 15px black;
+    float: left;
+}
+
+.meText {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
 
 /* Kontakt */
+
+.contactTitel {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'segoe script';
+}
+
+.contactLogo {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    width: 20%;
+    box-shadow: 5px 5px 15px black;
+    float: left;
+}
+
+.contactText {
+   text-align: center;
+    font-size: 125%;
+    
+}
+
 
 /* Breakpoints */
 
