@@ -281,6 +281,12 @@ hr{
     font-family: 'segoe script';
 }
 
+.skyText {
+    width: 50%;
+    margin-left: 15%;
+    float: left;
+}
+
 .projektFlugt {
     text-align: center;
     font-size: 150%;
