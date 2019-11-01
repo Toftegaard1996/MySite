@@ -2,7 +2,7 @@
 
 body{
     font-family: 'open sans';
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 .topBoks{
@@ -43,7 +43,6 @@ li a {
 }
 
 li a:hover {
-    background-color: rgba(97, 0, 145, 0.75);
     text-decoration: underline;
 }
 
