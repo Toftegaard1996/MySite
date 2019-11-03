@@ -393,16 +393,28 @@ hr{
     100% {background-position: -12300px;}
 }
 
-.kulturmaskinenVideo {
-    cursor: pointer;
-    border: 
-}
-
 .kulturmaskinenBillede {
+    width: 25%;
+    border: 2px solid purple;
+    padding: 5px;
+    border-radius: 10%;
 }
 
-.headsetVideo {
-    width: 0%;
+.kulturmaskineneBillede:hover {
+    box-shadow: 10px 10px 10px;
+}
+
+.headsetBillede {
+    width: 25%;
+    border: 2px solid white;
+}
+
+.scalaBillede {
+    width: 25%;
+}
+
+.stopmotionBillede {
+    width: 25%;
 }
 
 .creationsWP {
