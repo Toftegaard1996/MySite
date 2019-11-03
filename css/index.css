@@ -110,6 +110,14 @@ hr{
     box-shadow: 5px 5px 15px black;
 }
 
+.intro {
+    text-align: center;
+    font-family: 'segoe script';
+    font-size: 250%;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
 .projektKasse {
     position: relative;
     display: block;
@@ -305,6 +313,28 @@ hr{
     font-family: 'segoe script';
 }
 
+.flugtText {
+    width: 50%;
+    margin-left: 15%;
+    float: left;
+}
+
+.flugtBaggrund {
+    float: left;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.kortOksbol {
+    margin-left: 15%;
+}
+
+.flugtLogo {
+   margin-bottom: 2%;
+}
+
+
+
 /* Kreationer */
 
 .creationsTitel {
@@ -327,15 +357,52 @@ hr{
 .cloudAnimation {
     width: 1024px;
     height: 784px;
-    
-    background: url(../billeder/LoadingSkyAnimation-01.png) 0 0 no-repeat;
-    animation: lille-sky 2s steps(15) infinite;
-    position: absolute;
+    background: url('')
+    0 0 no-repeat;
+    animation: lille-sky 2s steps(15) infinite
 }
 
 @keyframes lille-sky {
     0% {background-position: 0px;}
     100% {background-position: -15360px;}
+}
+
+.penguinCreations{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: url('../Billeder/animation-04.png') 0 0 no-repeat;
+    animation: penguin 5s steps(79) infinite;
+}
+
+@keyframes penguin {
+    0% {background-position: 0px;}
+    100% {background-position: -15800px;}
+}
+
+.scalaCreations{
+    width: 150px;
+    height: 150px;
+    float: left;
+    background: url('../Billeder/scala-animation-04-01.png') 0 0 no-repeat;
+    animation: scala 6s steps(82) infinite;
+}
+
+@keyframes scala {
+    0% {background-position: 0px;}
+    100% {background-position: -12300px;}
+}
+
+.kulturmaskinenVideo {
+    cursor: pointer;
+    border: 
+}
+
+.kulturmaskinenBillede {
+}
+
+.headsetVideo {
+    width: 0%;
 }
 
 .creationsWP {
