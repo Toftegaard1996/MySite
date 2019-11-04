@@ -354,10 +354,19 @@ hr{
     font-family: 'segoe script';
 }
 
+.animationForklaring {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
 .cloudAnimation {
     width: 1024px;
     height: 784px;
-    background: url('')
+    margin-left: 10%;
+    margin-bottom: 2%;
+    float: left;
+    background: url('../Billeder/LoadingSkyAnimation-01.png')
     0 0 no-repeat;
     animation: lille-sky 2s steps(15) infinite
 }
@@ -370,6 +379,8 @@ hr{
 .penguinCreations{
     width: 200px;
     height: 200px;
+    margin-left: 9%;
+    margin-bottom: 11%;
     float: left;
     background: url('../Billeder/animation-04.png') 0 0 no-repeat;
     animation: penguin 5s steps(79) infinite;
@@ -383,6 +394,10 @@ hr{
 .scalaCreations{
     width: 150px;
     height: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 7%;
+    margin-top: 7%;
     float: left;
     background: url('../Billeder/scala-animation-04-01.png') 0 0 no-repeat;
     animation: scala 6s steps(82) infinite;
@@ -395,26 +410,48 @@ hr{
 
 .kulturmaskinenBillede {
     width: 25%;
-    border: 2px solid purple;
+    border: 3px solid rgba(97, 0, 145);
     padding: 5px;
-    border-radius: 10%;
+    margin-left: 20%;
+    margin-bottom: 2%;
 }
 
-.kulturmaskineneBillede:hover {
-    box-shadow: 10px 10px 10px;
+.kulturmaskinenBillede:hover {
+    box-shadow: 0 0 10px 5px rgba(97, 0, 145, 0.5);
 }
 
 .headsetBillede {
     width: 25%;
-    border: 2px solid white;
+    border: 3px solid rgba(97, 0, 145);
+    padding: 5px;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+.headsetBillede:hover {
+    box-shadow: 0 0 10px 5px rgba(97, 0, 145, 0.5);
 }
 
 .scalaBillede {
     width: 25%;
+    border: 3px solid rgba(97, 0, 145);
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.scalaBillede:hover {
+    box-shadow: 0 0 10px 5px rgba(97, 0, 145, 0.5);
 }
 
 .stopmotionBillede {
     width: 25%;
+    border: 3px solid rgba(97, 0, 145);
+    padding: 5px;
+    margin-left: 15%;
+}
+
+.stopmotionBillede:hover {
+    box-shadow: 0 0 10px 5px rgba(97, 0, 145, 0.5);
 }
 
 .creationsWP {
