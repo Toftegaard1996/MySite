@@ -5,15 +5,10 @@ body{
     background-color: rgba(0, 0, 0, 0.55);
 }
  
-.topBoks{;
+.banner{;
     border: 2px solid black;
     width: 100%;
-    margin: auto;
     box-shadow: 5px 5px 10px black;
-}
-
-.banner{
-    width: 100%;
 }
 
 ul{
@@ -54,6 +49,37 @@ hr{
     border-width: 2px;
     width: 80%;
     opacity: 50%;
+}
+
+footer {
+    height: 70px;
+    background-color: rgba(97, 0, 145, 0.5);
+    border: 2px solid black;
+    margin-top: 3%;
+}
+
+.myName {
+    float: left;
+    margin-right: 15%;
+    margin-left: 5%;
+    font-size: 125%;
+}
+
+.myMail {
+    float: left;
+    margin-right: 15%;
+    font-size: 125%;
+}
+
+.myNumber {
+    float: left;
+    margin-right: 15%;
+    font-size: 125%;
+}
+
+.myLink {
+    float: left;
+    font-size: 125%;
 }
 
 /* Forside */
@@ -498,14 +524,16 @@ hr{
 .meLogo {
     margin-left: 15%;
     width: 20%;
-    box-shadow: 5px 5px 15px black;
     float: left;
+    box-shadow: 5px 5px 15px black;
+    
 }
 
 .meText {
     width: 50%;
-    float: left;
-    margin-left: 5%;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 17%;
 }
 
 /* Kontakt */
@@ -530,10 +558,15 @@ hr{
     font-size: 125%;    
 }
 
+.info {
+    margin-bottom: 17%;
+}
+
 
 /* Breakpoints */
 
 @media only screen and (max-width:600px){
+   
     /* Forside */
     
     li a {
@@ -542,47 +575,597 @@ hr{
         padding: 5px;
     }
     
+    .velkomst {
+        font-size: 150%;
+    }
+    
+    .penguinAnimation {
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    
+    .logobillede {
+        min-width: 50%;
+        margin-left: 26%;
+    }
+    
+    .scalaAnimation {
+        margin-left: 35%;
+    }
+    
+    .projektKasse {
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    .projektBillede {
+        width: 100%;
+    }
+    
+    .kreationsKasse {
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    .kreationsBillede {
+        width: 100%;
+    }
+    
+    .kreationsKasse:hover {
+        font-size: 130%;
+    }
+    
+    .migKasse {
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    .omMigBillede {
+        width: 100%;
+    }
+    
+    footer {
+        height: 40px;
+    }
+    
+    .myName {
+        font-size: 60%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .myMail {
+        font-size: 60%;
+        margin-right: 2%;
+    }
+    
+    .myNumber {
+        font-size: 60%;
+        margin-right: 2%;
+    }
+    
+    .myLink {
+        font-size: 60%;
+    }
+    
     /* Projekter */
+    
+    .scalaText {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .scalaLogo {
+        margin-left: 37%;
+        margin-bottom: 5%;
+    }
+    
+    .scalaInsta1 {
+        width: 40%;
+        margin-left: 7%;
+    }
+    
+    .scalaInsta2 {
+        width: 40%;
+    }
+    
+    .skyText {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .umbrella {
+        width: 25%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    
+    .map {
+        width: 50%;
+    }
+    
+    .flugtText {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .flugtBaggrund {
+        margin: 10%;
+    }
+    
+    .kortOksbol {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
     
     /* Kreationer */
     
+    .cloudAnimation {
+        display: none;        
+    }
+    
+    .scalaCreations {
+        margin-left: 35%;
+    }
+    
+    .penguinCreations {
+        margin-left: 30%;
+    }
+    
+    .kulturmaskinenBillede {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .headsetBillede {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .scalaBillede {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .stopmotionBillede {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    
+    .styleguideScala {
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    
+    .viMaler {
+        width: 80%;
+        margin-bottom: 3%;
+    }
+    
+    .around {
+        width: 40%;
+        margin-left: 8%;
+    }
+    
+    .jungle {
+        width: 40%;
+    }
+    
     /* om mig */
     
+    .meLogo {
+        margin-left: 5%;
+        width: 25%;
+    }
+    
+    .meText {
+        margin-left: 35%;
+    }
+    
     /* Kontakt */
+    
+    .contactLogo {
+        margin-bottom: 20%;
+    }
+    
+    .info {
+        margin-bottom: 50%;
+    }
 }
 
 @media only screen and (min-width:601px) and (max-width:992px){
+   
     /* Forside */
+    
+    li a {
+        margin-left: 20px;
+        font-size: 90%;
+        padding: 5px;
+    }
+    
+    .velkomst {
+        font-size: 150%;
+    }
+    
+    .penguinAnimation {
+        margin-left: 35%;
+        margin-bottom: 5%;
+    }
+    
+    .logobillede {
+        min-width: 50%;
+        margin-left: 26%;
+    }
+    
+    .scalaAnimation {
+        margin-left: 40%;
+    }
+    
+    .projektKasse {
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    .projektBillede {
+        width: 100%;
+    }
+    
+    .kreationsKasse {
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    .kreationsBillede {
+        width: 100%;
+    }
+    
+    .kreationsKasse:hover {
+        font-size: 140%;
+    }
+    
+    .migKasse {
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    .omMigBillede {
+        width: 100%;
+    }
+    
+    footer {
+        height: 50px;
+    }
+    
+    .myName {
+        font-size: 70%;
+        margin-right: 2%;
+        margin-left: 4%;
+    }
+    
+    .myMail {
+        font-size: 70%;
+        margin-right: 2%;
+    }
+    
+    .myNumber {
+        font-size: 70%;
+        margin-right: 2%;
+    }
+    
+    .myLink {
+        font-size: 70%;
+    }
     
     /* Projekter */
     
+    .scalaText {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .scalaLogo {
+        margin-left: 40%;
+        margin-bottom: 5%;
+    }
+    
+    .scalaInsta1 {
+        width: 40%;
+        margin-left: 7%;
+    }
+    
+    .scalaInsta2 {
+        width: 40%;
+    }
+    
+    .skyText {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .umbrella {
+        width: 25%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    
+    .map {
+        width: 50%;
+    }
+    
+    .flugtText {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .flugtBaggrund {
+        margin: 10%;
+        margin-left: 20%;
+    }
+    
+    .kortOksbol {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .flugtLogo {
+        margin-left: 7%;
+    }
+    
     /* Kreationer */
+    
+    .cloudAnimation {
+        display: none;        
+    }
+    
+    .scalaCreations {
+        margin-left: 35%;
+    }
+    
+    .penguinCreations {
+        margin-left: 30%;
+    }
+    
+    .kulturmaskinenBillede {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .headsetBillede {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .scalaBillede {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .stopmotionBillede {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    
+    .styleguideScala {
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    
+    .viMaler {
+        width: 80%;
+        margin-bottom: 3%;
+    }
+    
+    .around {
+        width: 40%;
+        margin-left: 8%;
+    }
+    
+    .jungle {
+        width: 40%;
+    }
     
     /* om mig */
     
+    .meLogo {
+        margin-left: 5%;
+        width: 25%;
+    }
+    
+    .meText {
+        margin-left: 35%;
+    }
+    
     /* Kontakt */
+    
+    .contactLogo {
+        margin-bottom: 20%;
+    }
+    
+    .info {
+        margin-bottom: 41%;
+    }
 }
     
 @media only screen and (min-width:993px) and (max-width:1200px){
+    
     /* Forside */
+    
+    li a {
+        font-size: 110%;
+    }
+    
+    .penguinAnimation {
+        margin-left: 15%;
+    }
+    
+    .projektKasse {
+        margin-left: 10%;
+    }
+    
+    .kreationsKasse {
+        margin-left: 35%;
+    }
+    
+    .migKasse {
+        margin-left: 10%;
+    }
+    
+    footer {
+        height: 50px;
+    }
+    
+    .myName {
+        font-size: 90%;
+        margin-right: 10%;
+        margin-left: 2%;
+    }
+    
+    .myMail {
+        font-size: 90%;
+        margin-right: 10%;
+    }
+    
+    .myNumber {
+        font-size: 90%;
+        margin-right: 10%;
+    }
+    
+    .myLink {
+        font-size: 90%;
+    }
+    
     
     /* Projekter */
     
+    .scalaInsta1 {
+        width: 30%;
+    }
+    
+    .scalaInsta2 {
+        width: 30%;
+    }
+    
+    .umbrella {
+        width: 30%;
+        margin-left: 10%;
+    }
+    
+    .map {
+        width: 50%;
+    }
+    
+    .flugtBaggrund {
+        margin-left: 25%;
+        margin-bottom: 3%;
+    }
+    
+    .flugtLogo {
+        margin-left: 20%;
+    }
+    
     /* Kreationer */
     
-    /* om mig */
+    .creationsVelkomst {
+        width: 80%;
+        margin: auto;
+    }
     
-    /* Kontakt */
+    .cloudAnimation {
+        margin-left: 0px;
+    }
+    
+    .scalaCreations {
+        margin-left: 25%;
+    }
+    
+    .viMaler {
+        width: 80%;
+        margin-bottom: 3%;
+    }
+    
+    .around {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .info {
+        margin-bottom: 31%;
+    }
+    
 }
 
 @media only screen and (min-width:1201px)and (max-width:1600px){
+    
     /* Forside */
+    
+    .kreationsKasse {
+        margin-left: 45%;
+    }
+    
+    footer {
+        height: 50px;
+    }
+    
+    .myName {
+        font-size: 100%;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+    
+    .myMail {
+        font-size: 100%;
+        margin-right: 10%;
+    }
+    
+    .myNumber {
+        font-size: 100%;
+        margin-right: 10%;
+    }
+    
+    .myLink {
+        font-size: 100%;
+    }
     
     /* Projekter */
     
+    .flugtLogo {
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    
     /* Kreationer */
+    
+    .creationsVelkomst {
+        margin: auto;
+        width: 80%;
+    }
+    
+    .cloudAnimation {
+        margin-left: 7%;
+    }
+    
+    .scalaCreations {
+        margin-left: 25%;
+    }
+    
+    .viMaler {
+        margin-bottom: 5%;
+    }
+
+    .around {
+        margin-left: 25%;
+    }
     
     /* om mig */
     
     /* Kontakt */
+    
+    .info {
+        margin-bottom: 31%;
+    }
 }
