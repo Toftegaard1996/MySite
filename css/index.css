@@ -5,23 +5,15 @@ body{
     background-color: rgba(0, 0, 0, 0.55);
 }
  
-.topBoks{
-    font-family: 'segoe script';
+.topBoks{;
     border: 2px solid black;
-    height: 148px;
     width: 100%;
     margin: auto;
-    font-style: italic;
-    font-size: 130%;
     box-shadow: 5px 5px 10px black;
 }
 
 .banner{
     width: 100%;
-}
-
-.welcome{
-    padding: 20px;
 }
 
 ul{
@@ -460,10 +452,39 @@ hr{
     font-family: 'segoe script';
 }
 
+.hjemmesideForklaring {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.styleguideScala {
+    width: 30%;
+    margin-left: 20%;
+}
+
 .creationsHobby {
     text-align: center;
     font-size: 150%;
     font-family: 'segoe script';
+}
+
+.interresseForklaring {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.viMaler {
+    margin-left: 10%;
+}
+
+.around {
+    margin-left: 3%;
+}
+
+.jungle {
+    margin-left: 3%;
 }
     
 /* Om mig */
@@ -498,6 +519,7 @@ hr{
 .contactLogo {
     margin-left: 15%;
     margin-bottom: 5%;
+    margin-right: 5%;
     width: 20%;
     box-shadow: 5px 5px 15px black;
     float: left;
@@ -505,18 +527,62 @@ hr{
 
 .contactText {
    text-align: center;
-    font-size: 125%;
-    
-    
+    font-size: 125%;    
 }
 
 
 /* Breakpoints */
 
-@media only screen and (max-width:600px){}
-
-@media only screen and (min-width:601px) and (max-width:992px){}
+@media only screen and (max-width:600px){
+    /* Forside */
     
-@media only screen and (min-width:993px) and (max-width:1200px){}
+    li a {
+        margin-left: 10px;
+        font-size: 90%;
+        padding: 5px;
+    }
+    
+    /* Projekter */
+    
+    /* Kreationer */
+    
+    /* om mig */
+    
+    /* Kontakt */
+}
 
-@media only screen and (min-width:1201px)and (max-width:1600px){}
+@media only screen and (min-width:601px) and (max-width:992px){
+    /* Forside */
+    
+    /* Projekter */
+    
+    /* Kreationer */
+    
+    /* om mig */
+    
+    /* Kontakt */
+}
+    
+@media only screen and (min-width:993px) and (max-width:1200px){
+    /* Forside */
+    
+    /* Projekter */
+    
+    /* Kreationer */
+    
+    /* om mig */
+    
+    /* Kontakt */
+}
+
+@media only screen and (min-width:1201px)and (max-width:1600px){
+    /* Forside */
+    
+    /* Projekter */
+    
+    /* Kreationer */
+    
+    /* om mig */
+    
+    /* Kontakt */
+}
