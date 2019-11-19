@@ -60,20 +60,20 @@ footer {
 
 .myName {
     float: left;
-    margin-right: 15%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     font-size: 125%;
 }
 
 .myMail {
     float: left;
-    margin-right: 15%;
+    margin-right: 10%;
     font-size: 125%;
 }
 
 .myNumber {
     float: left;
-    margin-right: 15%;
+    margin-right: 10%;
     font-size: 125%;
 }
 
